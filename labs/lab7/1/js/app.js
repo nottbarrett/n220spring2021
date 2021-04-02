@@ -5,7 +5,7 @@ function doGreet() {
    
     var greetText = txtGreet.value.toString();
 
-    dvResponse.innerHTML = "Hello " + greetText + "";
+    dvResponse.innerHTML = "Hello " + greetText + "!";
 
     console.log(dvResponse.innerHTML)
 }
