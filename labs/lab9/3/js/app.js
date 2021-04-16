@@ -6,15 +6,10 @@ let objects = [
     { color: "#ff0000", height: 300, width: 100 },
 ];
 
-
-function divMaker() {
-
-    console.log(objects[0])
-
        for( var i = 0; i < objects.length; i++){
            let newDiv = document.createElement("div")
-           newDiv.style.height = objects[i].height
-           newDiv.style.width = objects[i].width
-           newDiv.style.color = objects[i].color
+           newDiv.style.height = objects[i].height + "px"
+           newDiv.style.width = objects[i].width + "px"
+           newDiv.style.background = objects[i].color
+           dvFound.appendChild(newDiv)
        }
-}
