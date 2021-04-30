@@ -1,8 +1,13 @@
 var size = 100
-var sizeElement = document.getElementById("greenSquare")
+var greenSquare = document.getElementById("greenSquare")
+
+greenSquare.style.width = size + "px"
+greenSquare.style.height = size + "px"
+greenSquare.style.backgroundColor = "#00FF00"
+greenSquare.style.margin = "50px"
 
 function onClick() {
     size = size * 1.1;
-    sizeElement.style.width = size + "px"
-    sizeElement.style.height = size + "px"
+    greenSquare.style.width = size + "px"
+    greenSquare.style.height = size + "px"
 }

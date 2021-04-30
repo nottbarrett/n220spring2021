@@ -1,11 +1,14 @@
-let dvResponse = document.getElementById("dvResponse");
-let txtGreet = document.getElementById("textGreet");
+var buddySquare = document.getElementById("buddySquare")
 
-function doGreet() {
-   
-    var greetText = txtGreet.value.toString();
+buddySquare.style.width = "100px"
+buddySquare.style.height = "100px"
+buddySquare.style.backgroundColor = "#0C8EEB"
+buddySquare.style.margin = "50px"
 
-    dvResponse.innerHTML = "Hello " + greetText + "!";
+function paintItBlack() {
+    buddySquare.style.backgroundColor = "#000000"
+}
 
-    console.log(dvResponse.innerHTML)
+function imBlue() {
+    buddySquare.style.backgroundColor = "#0C8EEB"
 }
